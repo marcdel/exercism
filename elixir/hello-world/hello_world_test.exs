@@ -12,10 +12,18 @@ defmodule HelloWorldTest do
     assert HelloWorld.hello() == "Hello, World!"
   end
 
+<<<<<<< HEAD
+=======
+  @tag :pending
+>>>>>>> df7734b7d70b9ca605d15306554fdb26d642555e
   test "says hello sample name" do
     assert HelloWorld.hello("Alice") == "Hello, Alice!"
   end
 
+<<<<<<< HEAD
+=======
+  @tag :pending
+>>>>>>> df7734b7d70b9ca605d15306554fdb26d642555e
   test "says hello other sample name" do
     assert HelloWorld.hello("Bob") == "Hello, Bob!"
   end
